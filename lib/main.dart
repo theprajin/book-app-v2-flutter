@@ -17,7 +17,6 @@ class Home extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Book App',
       theme: ThemeData(
-        useMaterial3: true,
         colorSchemeSeed: const Color.fromARGB(255, 15, 83, 19),
       ),
       home: const HomeScreen(),
